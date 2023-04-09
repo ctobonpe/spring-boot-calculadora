@@ -22,7 +22,7 @@ public class ConfigurationClass {
 	
 	@Bean
 	public BeanConPropiedades contructor() {
-		return new BeanConPropiedadesImplement();		
+		return new BeanConPropiedadesImplement(name,apellido);		
 	}
 	
 	
