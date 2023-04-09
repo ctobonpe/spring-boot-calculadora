@@ -1,7 +1,7 @@
 package com.pruebas.springboot.fundamentos.pojo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.ConstructorBinding;
+//import org.springframework.boot.context.properties.ConstructorBinding;
 
 //hace referencia a los datos del application.properties
 //@ConstructorBinding
