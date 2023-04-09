@@ -1,9 +1,13 @@
 package com.pruebas.springboot.fundamentos.component;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Matematica implements InterfazMatematica {
+	
+	Log logger = LogFactory.getLog(Matematica.class);
 	
 	private InterfazAritmetica aritmetica;
 	private InterfazTrigonometria trigonometria;
@@ -15,7 +19,7 @@ public class Matematica implements InterfazMatematica {
 
 	@Override
 	public int suma(int a, int b) {
-		
+
 		return aritmetica.suma(a, b);
 		
 	}
